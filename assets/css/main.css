@@ -1,4 +1,4 @@
-main{
+main {
   transition: all 0.3s;
 }
 
@@ -38,6 +38,11 @@ main{
   opacity: 0.6;
 }
 
+.navbar-mb {
+  position: fixed;
+  width: 100%;
+}
+
 .navbar-nav-mb {
   display: flex;
   flex-direction: row;
@@ -56,25 +61,125 @@ main{
   background-color: #f1f1f1;
 }
 
-.Header{
-    padding: 32px 16px;
+.Header {
+  padding: 32px 16px;
 }
 
-.header-container{
-    text-align: center;
-    max-width: 998px;
-    margin: 0 auto
+.header-container {
+  text-align: center;
+  max-width: 998px;
+  margin: 0 auto;
 }
 
-h1{
-    font-size: 64px;
+h1 {
+  font-size: 64px;
 }
 
-.header-img{
+.header-img {
   overflow: clip;
-  
+  aspect-ratio: 992/1108;
+}
 
+.about-skill {
+  letter-spacing: 4px;
+}
 
-    aspect-ratio: 992/1108;
-    
+.white-background {
+  width: 100%;
+  height: 28px;
+  background-color: #fff;
+}
+
+.grey-background {
+  height: 28px;
+  background-color: #616161;
+}
+
+.photography {
+  width: 95%;
+}
+
+.webdesign {
+  width: 85%;
+}
+
+.photoshop {
+  width: 80%;
+}
+
+.about-resume {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px 0 16px;
+  padding: 16px 0;
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.resume-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.resume-number {
+  font-size: 24px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 16px 0;
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.price-item-heading {
+  background-color: #616161;
+  padding: 32px 16px;
+  font-size: 24px;
+}
+
+.price-items {
+  padding: 0 8px;
+  text-align: center;
+  transition: all 0.3s;
+  opacity: 0.6;
+}
+.price-items:hover {
+  opacity: 1;
+}
+
+.price-item {
+  padding: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.price-btn:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.reputation-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.reputation-heading {
+  margin: 0 16px 0 0;
+}
+
+.reputation-img {
+  width: 80px;
+  margin-right: 16px;
+  border-radius: 50%;
+  height: 80px;
 }
