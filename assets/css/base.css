@@ -31,19 +31,22 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  color: #fff;
   background-color: #000;
+  color: #757575;
 }
 
-main {
+main,
+footer {
   margin: 0 0 0 120px;
-  padding: 12px 24px;
-}
+  padding: 12px 24px;}
 
-section {
-  max-width: 998px;
+  
+section
+{
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 h1,
@@ -55,6 +58,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 10px 0;
+  color: #fff;
 }
 
 h2 {
@@ -66,8 +70,18 @@ h3 {
 }
 .icon-large {
   font-size: 36px !important;
+  color: #fff;
 }
 
+.margin-right {
+  margin: 0 16px 0 0;
+}
+
+.container {
+  
+  margin: 0 auto;
+  padding: 64px 0;
+}
 .under-header {
   opacity: 0.6;
   width: 200px;
@@ -77,11 +91,17 @@ h3 {
 }
 
 p {
-  color: #757575;
   margin: 15px 0;
 }
 
 button {
   font: inherit;
-
+  padding: 12px 24px;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+/* Footer */

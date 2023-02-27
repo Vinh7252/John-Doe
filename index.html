@@ -45,25 +45,25 @@
 
         <ul class="navbar-nav-pc">
           <li>
-            <a class="nav-item-pc nav-home" href="">
+            <a class="nav-item-pc nav-home" href="#">
               <i class="fa fa-home icon-large"></i>
               <p>Home</p></a
             >
           </li>
           <li>
-            <a class="nav-item-pc" href="">
+            <a class="nav-item-pc" href="#About">
               <i class="fa fa-user icon-large"></i>
               <p>About</p></a
             >
           </li>
           <li>
-            <a class="nav-item-pc" href="">
+            <a class="nav-item-pc" href="#Photos">
               <i class="fa fa-eye icon-large"></i>
               <p>Photos</p></a
             >
           </li>
           <li>
-            <a class="nav-item-pc" href="">
+            <a class="nav-item-pc" href="#Contact">
               <i class="fa fa-envelope icon-large"></i>
               <p>Contact</p></a
             >
@@ -76,10 +76,10 @@
     <nav class="navbar-mb">
       <div class="navbar-container-mb">
         <div class="navbar-nav-mb">
-          <a class="navbar-item-mb" href="">HOME</a>
-          <a class="navbar-item-mb" href="">ABOUT</a>
-          <a class="navbar-item-mb" href="">PHOTOS</a>
-          <a class="navbar-item-mb" href="">CONTACT</a>
+          <a class="navbar-item-mb" href="#">HOME</a>
+          <a class="navbar-item-mb" href="#About">ABOUT</a>
+          <a class="navbar-item-mb" href="#Photos">PHOTOS</a>
+          <a class="navbar-item-mb" href="#Contact">CONTACT</a>
         </div>
       </div>
     </nav>
@@ -103,7 +103,7 @@
       </header>
 
       <!-- About -->
-      <section>
+      <section id="About">
         <div class="container">
           <div class="about-container">
             <div class="about-subject">
@@ -223,7 +223,7 @@
                     />
                     <div class="reputation-text">
                       <p>
-                        <span class="reputation-heading">Chris Fox.</span>CEO at
+                        <span class="margin-right">Chris Fox.</span>CEO at
                         Mighty Schools.
                       </p>
                       <p>John Doe saved us from a web disaster.</p>
@@ -237,8 +237,8 @@
                     />
                     <div class="reputation-text">
                       <p>
-                        <span class="reputation-heading">Rebecca Flex.</span>CEO
-                        at Company.
+                        <span class="margin-right">Rebecca Flex.</span>CEO at
+                        Company.
                       </p>
                       <p>No one is better than John Doe.</p>
                     </div>
@@ -251,10 +251,129 @@
       </section>
 
       <!-- Photos -->
-      <section></section>
+      <section id="Photos">
+        <div class="container">
+          <div class="photo-container">
+            <div class="heading-box">
+              <h2>My Photos</h2>
+              <hr class="under-header" />
+            </div>
+            <div class="my-photo-grid">
+              <div class="photo-grid-item">
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/wedding.jpg"
+                  alt="wedding"
+                />
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/rocks.jpg"
+                  alt="rock"
+                />
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/sailboat.jpg"
+                  alt="sailbot"
+                />
+              </div>
+              <div class="photo-grid-item">
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/underwater.jpg"
+                  alt="underwater"
+                />
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/chef.jpg"
+                  alt="chef"
+                />
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/wedding (1).jpg"
+                  alt="wedding"
+                />
+                <img
+                  class="my-photo-item"
+                  src="./assets/img/photos/p6.jpg"
+                  alt="typewriter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Contact -->
-      <section></section>
+      <section id="Contact">
+        <div class="container">
+          <div class="contact-container">
+            <div class="heading-box">
+              <h2>Contact Me</h2>
+              <hr class="under-header" />
+            </div>
+            <div class="contact-text">
+              <div class="text-item">
+                <div class="icon-align margin-right">
+                  <i class="fa fa-map-marker icon-large"></i>
+                </div>
+                <p>Chicago, US</p>
+              </div>
+              <div class="text-item">
+                <div class="icon-align margin-right">
+                  <i class="fa fa-phone icon-large"></i>
+                </div>
+                <p>Phone: +00 151515</p>
+              </div>
+              <div class="text-item">
+                <div class="icon-align margin-right">
+                  <i class="fa fa-envelope icon-large"> </i>
+                </div>
+                <p>Email: mail@mail.com</p>
+              </div>
+            </div>
+            <div class="contact-form">
+              <p>Let's get in touch. Send me a message:</p>
+              <form>
+                <input class="contact-input" type="text" placeholder="Name" />
+                <input class="contact-input" type="text" placeholder="Email" />
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Subject"
+                />
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Message"
+                />
+                <button type="submit" class="contact-btn">
+                  <i class="fa fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section>
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-icon">
+              <i class="fa fa-facebook-official icon-footer"></i>
+              <i class="fa fa-instagram icon-footer"></i>
+              <i class="fa fa-snapchat icon-footer"></i>
+              <i class="fa fa-pinterest-p icon-footer"></i>
+              <i class="fa fa-twitter icon-footer"></i>
+              <i class="fa fa-linkedin icon-footer"></i>
+            </div>
+            <p>
+              Powered by
+              <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

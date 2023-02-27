@@ -11,6 +11,23 @@
     .header-bm{
         display: none;
     }
+
+    .container{
+       margin: 0;
+    }
+    
+
+    .price-container,
+    .my-photo-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about-resume-container {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
 }
 
 
